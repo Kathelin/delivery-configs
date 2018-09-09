@@ -1,0 +1,9 @@
+erver:
+  port: 9090
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Kathelin/delivery-configs
